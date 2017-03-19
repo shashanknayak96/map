@@ -1,0 +1,30 @@
+<html>
+
+<head>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD9eGCjRLKW8BNTgLnsPaWDkJPpj-OflT8&callback=initMap">
+
+    </script>
+    <style>
+        #map {
+            width: 100%;
+            height: 70%;
+        }
+        #currentLoc{
+            margin-left: 90%;
+
+        }
+    </style>
+</head>
+
+<body>
+    <input type="text" id="userInput" autofocus></input>
+    <input type="button" id="userInputButton" value="Submit"></input>
+    <input type="button" id="currentLocation" value="Get Current Location">
+    <div id="map"></div>
+    Latitude<input type="text" id="lat" disabled>
+    Longitude<input type="text" id="lng" disabled>
+
+</body>
+<script src="main.js"></script>
+
+</html>
